@@ -176,7 +176,7 @@
     <section class="form-card">
       <h2>➕ Create New User</h2>
 
-      <form on:submit|preventDefault={handleSubmit}>
+      <form onsubmit={handleSubmit}>
         <div class="form-group">
           <label for="name">Name</label>
           <input
@@ -247,7 +247,7 @@
       <section class="form-card">
         <h2>✏️ Update User</h2>
 
-        <form on:submit|preventDefault={handleUpdate}>
+        <form onsubmit={handleUpdate}>
           <div class="form-group">
             <label for="update-name">Name</label>
             <input
